@@ -12,3 +12,11 @@ const converteTaxa  = parseInt (taxa);
 const porcentagem = converte * (taxa / 100);
 const valorFinal = converte + porcentagem ;
 alert ( valorFinal);
+
+//Elabore um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente. 
+const valorDaConta = prompt ("Digite o valor da conta :");
+const valorNumero = parseInt (valorDaConta);
+const pessoas = prompt ("Digite a quantidade de pessoas que vão pagar");
+const divisaoDaConta = parseInt (pessoas);
+const ultimoValor = valorNumero / divisaoDaConta ;
+alert (ultimoValor);
